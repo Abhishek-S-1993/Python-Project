@@ -16,3 +16,6 @@ print(empty_lst)
 
 lst=[10, "abhi", "mbl", "20", "bangalore"]
 print(lst)
+
+type_list = type(lst)
+print("the type of the give list is {}".format(type_list))
