@@ -9,4 +9,6 @@ b=15
 c=20
 d=45
 
+
+type(c)
 print(b+c+d)
