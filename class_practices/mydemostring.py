@@ -142,7 +142,6 @@ str_con = str1 + str2 + str3 + str4
 print("the concat is {}".format(str_con))
 
 # string length
-
 str_len = "the python programming is simple"
 lenght = len(str_len)
 print("the length of the given given string is : {}".format(lenght))
@@ -153,7 +152,9 @@ print("the rev of index a is {}".format(str_a))
 
 
 #string reverse
-
 str_res = ("the python programming")
 string_op = str_res[::-1]
 print("the reverse value of given string is {}".format(string_op))
+
+txt = " Hello World "
+x = txt.strip()
