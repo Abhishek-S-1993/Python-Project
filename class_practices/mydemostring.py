@@ -69,7 +69,7 @@ print("the starting with method for the given text is {}".format(str_start_one.s
 str_start_two = "the start of python session"
 print("the starting with method for the given text is {}".format(str_start_two.startswith("p")))
 
-# endswith string
+# String Endswith
 str_end_one = "the closure of python session"
 print("the ends with method for the given text is {}".format(str_end_one.endswith("n")))
 
@@ -83,7 +83,7 @@ print("the position of the given string is {}".format(str_find_one.find("s")))
 str_find_two = "the python session will happen at night"
 print("the position of the given string is {}".format(str_find_two.find("w")))
 
-#string count
+# String count
 str_count_one = "the python elements counts"
 print("the count of the given element is {}".format(str_count_one.count("e")))
 
@@ -148,13 +148,14 @@ print("the length of the given given string is : {}".format(lenght))
 
 str_dt = ("abhi", "abhishek", "abhiram")
 str_a = str_dt[0][::-1]
+str_b = str_dt[1][::-1]
+str_c = str_dt[2][::-1]
 print("the rev of index a is {}".format(str_a))
+print("the rev of index a is {}".format(str_b))
+print("the rev of index a is {}".format(str_c))
 
 
-#string reverse
-str_res = ("the python programming")
+# string reverse
+str_res = "the python programing"
 string_op = str_res[::-1]
 print("the reverse value of given string is {}".format(string_op))
-
-txt = " Hello World "
-x = txt.strip()

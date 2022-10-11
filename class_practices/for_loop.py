@@ -51,7 +51,3 @@ str_str = "Welcome to python"
 str_split = str_str.split()
 for k in str_split:
     print(str_split[0][::-1],str_str[1][::-1],str_str[2][::-1])
-
-s = ['Geeks', 'for', 'Geeks']
-for i in s:
-  print(i,end=" ")

@@ -71,6 +71,9 @@ for i in str_fruits:
         pass
         print(i)
 
+
+# Ranger Function
+
 # for i in range(3):
 #     print(i)
 
@@ -92,6 +95,19 @@ str_y = ["danger", "peace", "water", "lips", "fire"]
 for i in str_x:
     for j in str_y:
         print(i,j)
+
+
+lst_a = [1,2,3]
+lst_b = [4,5,6]
+lst_c = [7,8,9]
+
+for i in lst_a:
+    for j in lst_b:
+        print(i,j)
+        for k in lst_c:
+            print(i,j)
+            print(i,k)
+            print(i,j,k)
 
 
 

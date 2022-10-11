@@ -41,14 +41,16 @@ print("the value between 4 to 9 is {}".format(lst_sl_two))
 lst_sl_three = lst_three[0:7]
 print("the value between 0 to 7 is {}".format(lst_sl_three))
 
-lst_one = [1 ,2 ,3,4,5]
-lst_two = [6,7,8,9,10]
-lst_cat = lst_one+lst_two
-print("the concatenation  of two list is {}".format(lst_cat))
+# lst_one = [1 ,2 ,3,4,5]
+# lst_two = [6,7,8,9,10]
+# lst_cat = lst_one+lst_two
+# print("the concatenation  of two list is {}".format(lst_cat))
 
+# sort() method
 lst_ele = [4,54,9,4,1,2,3,99,44,83,39,55]
 lst_ele.sort()
 print("the ascending order od the given list is {}".format(lst_ele))
+# reverse() method
 lst_ele.reverse()
 print("the descending order of given list is {}".format(lst_ele))
 
@@ -147,7 +149,7 @@ print("the value of list after inserting is {}".format(lst_obj))
 # pop element from list
 
 lst_obj.pop()
-print("the value of given list after pop is {}".format(lst_obj))
+print("the value of given lis after pop is {}".format(lst_obj))
 
 # zip in list
 lsta = [1,2,3]
