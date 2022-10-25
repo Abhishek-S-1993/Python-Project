@@ -71,11 +71,10 @@ for i in str_fruits:
         pass
         print(i)
 
-
 # Ranger Function
 
-# for i in range(3):
-#     print(i)
+for i in range(3):
+    print(i)
 
 for i in range(4,9,12):
     print(i)
@@ -89,30 +88,33 @@ for x in range(6):
         print(" finally done")
 
 str_x = ["red", "blue", "green", "pink", "white"]
-
 str_y = ["danger", "peace", "water", "lips", "fire"]
 
 for i in str_x:
     for j in str_y:
-        print(i,j)
+        print(i, j)
+
+# lst_a = [1,2,3]
+# lst_b = [4,5,6]
+# lst_c = [7,8,9]
+
+# for i in lst_a:
+#     for j in lst_b:
+#         print(i,j)
+#         for k in lst_c:
+#             print(i,j)
+#             print(i,k)
+#             print(i,j,k)
+
+number = int(input("Enter the number : "))
+if number % 2 == 0:
+    print("This is even number")
+else:
+    print("This is odd number")
 
 
-lst_a = [1,2,3]
-lst_b = [4,5,6]
-lst_c = [7,8,9]
+length = int(input("Enter the length :"))
+width = int(input("Enter the width :"))
+square_feet = length*width
 
-for i in lst_a:
-    for j in lst_b:
-        print(i,j)
-        for k in lst_c:
-            print(i,j)
-            print(i,k)
-            print(i,j,k)
-
-
-
-
-
-
-
-
+print("The length {} and width {} so total square feet is {}".format(length, width, square_feet))

@@ -1,7 +1,7 @@
 """
 what is tuple?
 tuple is a group of elements which can be alphabets, numbers and alphanumeric or combinations of all which
-is represented between small braces.
+    is represented between small braces.
 *** tuple is immutable
 """
 

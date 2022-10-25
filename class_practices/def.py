@@ -1,6 +1,7 @@
 def fname():
     print("my first name ")
 
+
 # method calling
 fname()
 
@@ -61,17 +62,15 @@ fun_veg(vegetables)
 def my_function(name, number="", address="NA"):
     print("name:" + name)
     print("number : " + number)
-    print("address : "+ address)
+    print("address : " + address)
 
 
 my_function("abhi", "9620845431", "MBL")
-
 
 fruits = "7"
 fruits = fruits + "0"
 eggs = int(fruits) + 3
 print(float(eggs))
-
 
 print("\U0001F600")
 print("\U0001F618")
@@ -82,3 +81,25 @@ print("\U0001f600")
 print("\U0001F607")
 print("\U0001F910")
 print("\U0001F612")
+
+
+def sun(num1: int, num2: int):
+    num3 = num1 + num2
+    return num3
+
+
+num1 = int(input("Enter num1 : "))
+num2 = int(input("Enter num2 : "))
+sun = add(num1, num2)
+print("The sum of {} and {} is {}".format(num1, num2, sun))
+
+
+def area(length: float, breath: float):
+    area = length * breath
+    return area
+
+
+length = int(input("Enter the length : "))
+breath = int(input("Enter the breath :"))
+total = area(length, breath)
+print("The area of the given yard : {}".format(total))
