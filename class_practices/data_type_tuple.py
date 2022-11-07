@@ -40,14 +40,14 @@ tpl_one = (2,5,6,7,8,9)
 tuple_len = len(tpl_one)
 print("the length of the given tuple is {}".format(tuple_len))
 
-tuple_num = (5,6, 88, 55, 45, 99, 22 ,56)
+tuple_num = (5, 6, 88, 55, 45, 99, 22, 56)
 tpl_max = max(tuple_num)
 print("the max value in the given tuple is {}".format(tpl_max))
-tpl_min =  min(tuple_num)
+tpl_min = min(tuple_num)
 print("the min value of the given tuple is {}".format(tpl_min))
 
 # converting to tuple to list
-tup = (1,2,3,4,5,6,7)
+tup = (1, 2, 3, 4, 5, 6, 7)
 tup_lst = list(tup)
 tup_type = type(tup_lst)
 print(tup_type)

@@ -155,7 +155,7 @@ print("the rev of index a is {}".format(str_b))
 print("the rev of index a is {}".format(str_c))
 
 
-# string reverse
+    # string reverse
 str_res = "the python programing"
 string_op = str_res[::-1]
 print("the reverse value of given string is {}".format(string_op))

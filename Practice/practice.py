@@ -96,24 +96,16 @@ print(unique([1, 2, 3, 3, 6, 3, 4, 5, 8, 9]))
 
 # Write a Python function that takes a number as a parameter and check the number is prime or not.
 
-# def prime_test(n):
-#     # for i in n:
-#     #     if n == 1:
-#     #         return False
-#     #     elif n == 2:
+def prime_test(n):
+    if n == 1:
+        return False
+    elif n == 2:
+        return True
+    else:
+        for n in range(2, n):
+            if n % 2 == 0:
+                return False
+            return True
 
 
-    # if n == 1:
-    #     return False
-    # elif n == 2:
-    #     return True
-    # else:
-    #     for n in range(2, n):
-    #         if n % 2 == 0:
-    #             return False
-    #         return True
-
-
-
-
-
+prime_test(7)
